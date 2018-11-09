@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1FA3722192E5C9000E776F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FA3712192E5C9000E776F /* CoreLocation.framework */; };
+		EC324018219051B500537958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC324017219051B500537958 /* AppDelegate.swift */; };
+		EC32401A219051B500537958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC324019219051B500537958 /* ViewController.swift */; };
+		EC32401D219051B500537958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32401B219051B500537958 /* Main.storyboard */; };
+		EC32401F219051B500537958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32401E219051B500537958 /* Assets.xcassets */; };
+		EC32404621905FAD00537958 /* Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC32404521905FAD00537958 /* Song.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC324029219051B500537958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC32400C219051B500537958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC324013219051B500537958;
+			remoteInfo = ApplicationPendu;
+		};
+		EC324034219051B500537958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC32400C219051B500537958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC324013219051B500537958;
+			remoteInfo = ApplicationPendu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1FA3712192E5C9000E776F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC324014219051B500537958 /* ApplicationPendu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationPendu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC324017219051B500537958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC324019219051B500537958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC32401C219051B500537958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC32401E219051B500537958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC324023219051B500537958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC324028219051B500537958 /* ApplicationPenduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationPenduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC324033219051B500537958 /* ApplicationPenduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationPenduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC32404521905FAD00537958 /* Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Song.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC324011219051B500537958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FA3722192E5C9000E776F /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC324025219051B500537958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC324030219051B500537958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1FA3702192E5C9000E776F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FA3712192E5C9000E776F /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC32400B219051B500537958 = {
+			isa = PBXGroup;
+			children = (
+				EC324016219051B500537958 /* ApplicationPendu */,
+				EC324015219051B500537958 /* Products */,
+				EC1FA3702192E5C9000E776F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC324015219051B500537958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC324014219051B500537958 /* ApplicationPendu.app */,
+				EC324028219051B500537958 /* ApplicationPenduTests.xctest */,
+				EC324033219051B500537958 /* ApplicationPenduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC324016219051B500537958 /* ApplicationPendu */ = {
+			isa = PBXGroup;
+			children = (
+				EC324017219051B500537958 /* AppDelegate.swift */,
+				EC324019219051B500537958 /* ViewController.swift */,
+				EC32401B219051B500537958 /* Main.storyboard */,
+				EC32401E219051B500537958 /* Assets.xcassets */,
+				EC32404521905FAD00537958 /* Song.mp3 */,
+				EC324023219051B500537958 /* Info.plist */,
+			);
+			path = ApplicationPendu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC324013219051B500537958 /* ApplicationPendu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC32403C219051B500537958 /* Build configuration list for PBXNativeTarget "ApplicationPendu" */;
+			buildPhases = (
+				EC324010219051B500537958 /* Sources */,
+				EC324011219051B500537958 /* Frameworks */,
+				EC324012219051B500537958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApplicationPendu;
+			productName = ApplicationPendu;
+			productReference = EC324014219051B500537958 /* ApplicationPendu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC324027219051B500537958 /* ApplicationPenduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC32403F219051B500537958 /* Build configuration list for PBXNativeTarget "ApplicationPenduTests" */;
+			buildPhases = (
+				EC324024219051B500537958 /* Sources */,
+				EC324025219051B500537958 /* Frameworks */,
+				EC324026219051B500537958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC32402A219051B500537958 /* PBXTargetDependency */,
+			);
+			name = ApplicationPenduTests;
+			productName = ApplicationPenduTests;
+			productReference = EC324028219051B500537958 /* ApplicationPenduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC324032219051B500537958 /* ApplicationPenduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC324042219051B500537958 /* Build configuration list for PBXNativeTarget "ApplicationPenduUITests" */;
+			buildPhases = (
+				EC32402F219051B500537958 /* Sources */,
+				EC324030219051B500537958 /* Frameworks */,
+				EC324031219051B500537958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC324035219051B500537958 /* PBXTargetDependency */,
+			);
+			name = ApplicationPenduUITests;
+			productName = ApplicationPenduUITests;
+			productReference = EC324033219051B500537958 /* ApplicationPenduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC32400C219051B500537958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = etudiant;
+				TargetAttributes = {
+					EC324013219051B500537958 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC324027219051B500537958 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC324013219051B500537958;
+					};
+					EC324032219051B500537958 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC324013219051B500537958;
+					};
+				};
+			};
+			buildConfigurationList = EC32400F219051B500537958 /* Build configuration list for PBXProject "ApplicationPendu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC32400B219051B500537958;
+			productRefGroup = EC324015219051B500537958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC324013219051B500537958 /* ApplicationPendu */,
+				EC324027219051B500537958 /* ApplicationPenduTests */,
+				EC324032219051B500537958 /* ApplicationPenduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC324012219051B500537958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32401F219051B500537958 /* Assets.xcassets in Resources */,
+				EC32401D219051B500537958 /* Main.storyboard in Resources */,
+				EC32404621905FAD00537958 /* Song.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC324026219051B500537958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC324031219051B500537958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC324010219051B500537958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32401A219051B500537958 /* ViewController.swift in Sources */,
+				EC324018219051B500537958 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC324024219051B500537958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC32402F219051B500537958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC32402A219051B500537958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC324013219051B500537958 /* ApplicationPendu */;
+			targetProxy = EC324029219051B500537958 /* PBXContainerItemProxy */;
+		};
+		EC324035219051B500537958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC324013219051B500537958 /* ApplicationPendu */;
+			targetProxy = EC324034219051B500537958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC32401B219051B500537958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC32401C219051B500537958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC32403A219051B500537958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC32403B219051B500537958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC32403D219051B500537958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApplicationPendu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Projet.ApplicationPendu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC32403E219051B500537958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApplicationPendu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Projet.ApplicationPendu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC324040219051B500537958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApplicationPenduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Projet.ApplicationPenduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplicationPendu.app/ApplicationPendu";
+			};
+			name = Debug;
+		};
+		EC324041219051B500537958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApplicationPenduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Projet.ApplicationPenduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplicationPendu.app/ApplicationPendu";
+			};
+			name = Release;
+		};
+		EC324043219051B500537958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApplicationPenduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Projet.ApplicationPenduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ApplicationPendu;
+			};
+			name = Debug;
+		};
+		EC324044219051B500537958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApplicationPenduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Projet.ApplicationPenduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ApplicationPendu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC32400F219051B500537958 /* Build configuration list for PBXProject "ApplicationPendu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC32403A219051B500537958 /* Debug */,
+				EC32403B219051B500537958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC32403C219051B500537958 /* Build configuration list for PBXNativeTarget "ApplicationPendu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC32403D219051B500537958 /* Debug */,
+				EC32403E219051B500537958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC32403F219051B500537958 /* Build configuration list for PBXNativeTarget "ApplicationPenduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC324040219051B500537958 /* Debug */,
+				EC324041219051B500537958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC324042219051B500537958 /* Build configuration list for PBXNativeTarget "ApplicationPenduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC324043219051B500537958 /* Debug */,
+				EC324044219051B500537958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC32400C219051B500537958 /* Project object */;
+}
